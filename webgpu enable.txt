@@ -1,0 +1,3 @@
+webgpu enable
+
+chrome://flags/#enable-unsafe-webgpu
