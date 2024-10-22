@@ -29,7 +29,7 @@ action=ActionChains(driver) #created the action chain object
 #otherwise it will give us an error
 
 #mouse hover action
-#we have to use perform method to perform the action without is we can not perform any action
+#we have to use perform method to perform the action without it we can not perform any action
 #perform method is must
 time.sleep(2)
 action.move_to_element(furniture).move_to_element(sofas).move_to_element(homedecor).click().perform()
